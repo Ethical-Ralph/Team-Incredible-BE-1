@@ -3,8 +3,8 @@ const nodemailer = require('nodemailer');
 const transport = nodemailer.createTransport({
   service: 'Mailgun',
   auth: {
-    user: 'postmaster@trade.levitfx.com',
-    pass: '9331f0ea0be45818f3bb62efaf878215-8b34de1b-16fce93a',
+    user: '',
+    pass: '',
   },
 });
 
